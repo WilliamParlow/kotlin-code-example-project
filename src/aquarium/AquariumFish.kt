@@ -1,11 +1,11 @@
 package aquarium
 
-abstract class AquariumFIsh {
+abstract class AquariumFish {
 
     abstract val color: String
 }
 
-class Shark: AquariumFIsh(), FishAction {
+class Shark: AquariumFish(), FishAction {
 
     override val color = "gray"
 
@@ -14,7 +14,7 @@ class Shark: AquariumFIsh(), FishAction {
     }
 }
 
-class Plecostomus: AquariumFIsh(), FishAction {
+class Plecostomus: AquariumFish(), FishAction {
 
     override val color = "gold"
 

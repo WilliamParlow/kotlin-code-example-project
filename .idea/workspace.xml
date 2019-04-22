@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1714492-83ee-48b0-9140-30ae52161895" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/Aquarium.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/AquariumFIsh.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/decorations/Decorations.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/books/Book.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fish/Fish.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fish/main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/Inheritance.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spice/Spice.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spice/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/FortuneKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello Kotlin/FortuneKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/LambdasKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello Kotlin/LambdasKt$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/LambdasKt$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello Kotlin/LambdasKt$main$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/LambdasKt$main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello Kotlin/LambdasKt$main$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/LambdasKt$waterFilterLambda$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello Kotlin/LambdasKt$waterFilterLambda$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/LambdasKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello Kotlin/LambdasKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/MASKt$waterFilter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello Kotlin/MASKt$waterFilter$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/MASKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello Kotlin/MASKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/META-INF/Hello Kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello Kotlin/META-INF/Hello Kotlin.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hello Kotlin/WhatShouldIDoTodayKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello Kotlin/WhatShouldIDoTodayKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aquarium/AquariumFIsh.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/aquarium/AquariumFish.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,17 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/aquarium/decorations/Decorations.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,6 +55,8 @@
         <option value="$PROJECT_DIR$/src/inheritance/Inheritance.kt" />
         <option value="$PROJECT_DIR$/src/fish/main.kt" />
         <option value="$PROJECT_DIR$/src/aquarium/decorations/Decorations.kt" />
+        <option value="$PROJECT_DIR$/src/aquarium/AquariumFish.kt" />
+        <option value="$PROJECT_DIR$/src/extensionfunctions/ExtensionFunctions.kt" />
       </list>
     </option>
   </component>
@@ -101,7 +74,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,13 +90,14 @@
               <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hello Kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="aquarium" type="462c0819:PsiDirectoryNode" />
+              <item name="extensionfunctions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -156,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.aquarium.decorations.DecorationsKt">
+  <component name="RunManager" selected="Kotlin.extensionfunctions.ExtensionFunctionsKt">
     <configuration name="aquarium.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Hello Kotlin" />
       <option name="VM_PARAMETERS" />
@@ -196,6 +169,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="extensionfunctions.ExtensionFunctionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Hello Kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="extensionfunctions.ExtensionFunctionsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="fish.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Hello Kotlin" />
       <option name="VM_PARAMETERS" />
@@ -209,33 +195,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="spice.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="Hello Kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="spice.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Kotlin.aquarium.MainKt" />
-      <item itemvalue="Kotlin.aquarium.spice.MainKt" />
       <item itemvalue="Kotlin.books.MainKt" />
       <item itemvalue="Kotlin.fish.MainKt" />
       <item itemvalue="Kotlin.aquarium.decorations.DecorationsKt" />
+      <item itemvalue="Kotlin.extensionfunctions.ExtensionFunctionsKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.extensionfunctions.ExtensionFunctionsKt" />
         <item itemvalue="Kotlin.aquarium.decorations.DecorationsKt" />
         <item itemvalue="Kotlin.aquarium.MainKt" />
         <item itemvalue="Kotlin.fish.MainKt" />
         <item itemvalue="Kotlin.books.MainKt" />
-        <item itemvalue="Kotlin.aquarium.spice.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -252,16 +225,19 @@
       <workItem from="1555369874378" duration="1451000" />
       <workItem from="1555783405812" duration="21084000" />
       <workItem from="1555858149285" duration="11661000" />
+      <workItem from="1555898605370" duration="863000" />
+      <workItem from="1555959900046" duration="1991000" />
+      <workItem from="1555968685368" duration="354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34196000" />
+    <option name="totallyTimeSpent" value="37404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2671141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -327,13 +303,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aquarium/Fish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aquarium/Fish.java" />
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Primitives.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -341,27 +311,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/books/EBook.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/books/main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spice/SimpleSpice.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/books/EBook.kt" />
+    <entry file="file://$PROJECT_DIR$/src/books/main.kt" />
+    <entry file="file://$PROJECT_DIR$/src/spice/SimpleSpice.kt" />
     <entry file="file://$PROJECT_DIR$/src/spice/main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -418,17 +370,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aquarium/AquariumFIsh.kt">
+    <entry file="file://$PROJECT_DIR$/src/aquarium/decorations/Decorations.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="420">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aquarium/decorations/Decorations.kt">
+    <entry file="file://$PROJECT_DIR$/src/aquarium/AquariumFish.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/util/Standard.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/extensionfunctions/ExtensionFunctions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
         </state>
       </provider>
     </entry>
