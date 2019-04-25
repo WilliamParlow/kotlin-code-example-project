@@ -1,6 +1,6 @@
 package fish
 
-fun main(args: Array<String>) {
+fun main() {
 
     val fish1 = Fish(false, 18)
     val fish2 = Fish("I'm using the secondary constructor")

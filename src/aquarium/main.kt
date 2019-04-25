@@ -1,6 +1,6 @@
 package aquarium
 
-fun main(args: Array<String>) {
+fun main() {
     buildAquarium()
     makeFish()
 }

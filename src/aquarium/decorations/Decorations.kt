@@ -1,6 +1,6 @@
 package aquarium.decorations
 
-fun main(args: Array<String>) {
+fun main() {
 
     makeDecorations()
 }

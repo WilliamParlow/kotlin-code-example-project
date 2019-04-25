@@ -1,6 +1,6 @@
 package inheritance
 
-fun main(args: Array<String>) {
+fun main() {
     delegate()
 }
 

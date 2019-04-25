@@ -1,4 +1,4 @@
-fun main(args: Array<String>) {
+fun main() {
     waterFilterLambda(40)
     updateDirt(40, waterFilterLambda)
     updateDirt(40, ::waterFilterFun)

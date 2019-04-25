@@ -1,4 +1,4 @@
-fun main(args: Array<String>) {
+fun main() {
     var fortune = ""
 
     while (!fortune.contains("Take it easy")) {

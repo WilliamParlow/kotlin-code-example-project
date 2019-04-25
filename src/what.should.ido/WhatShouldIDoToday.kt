@@ -1,4 +1,4 @@
-fun main(args: Array<String>) {
+fun main() {
     println(whatShouldIDoToday("happy"))
     println(whatShouldIDoToday("happy", temperature = 30.0))
     println(whatShouldIDoToday("sad", weather = "rainy"))
