@@ -1,4 +1,4 @@
-package books
+package inheritance
 
 open class Book(var title: String = "", var author: String = "") {
 
