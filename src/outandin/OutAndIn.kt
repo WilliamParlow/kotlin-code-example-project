@@ -20,10 +20,10 @@ class LakeWater : WaterSupply(true) {
     }
 }
 
-class Aquarium<out T: WaterSupply>(val waterSupply: T) {
+class Aquarium<out T : WaterSupply>(private val waterSupply: T) {
 
     fun addWater(cleaner: Cleaner<T>) {
-        check(!waterSupply.needsProcessed) {
+        if (waterSupply.needsProcessed) {
             cleaner.clean(waterSupply)
         }
 
@@ -32,11 +32,11 @@ class Aquarium<out T: WaterSupply>(val waterSupply: T) {
 
 }
 
-interface Cleaner<in T: WaterSupply> {
+interface Cleaner<in T : WaterSupply> {
     fun clean(waterSupply: T)
 }
 
-class TapWaterCleaner: Cleaner<TapWater> {
+class TapWaterCleaner : Cleaner<TapWater> {
     override fun clean(waterSupply: TapWater) {
         waterSupply.addChemicalCleaners()
     }
