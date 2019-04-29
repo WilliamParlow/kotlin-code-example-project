@@ -48,4 +48,5 @@ fun outAndInExample() {
     val cleaner = TapWaterCleaner()
     val aquarium = Aquarium(TapWater())
     aquarium.addWater(cleaner)
+    addItemTo(aquarium)
 }

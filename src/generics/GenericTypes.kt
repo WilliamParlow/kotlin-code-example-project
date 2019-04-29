@@ -2,6 +2,7 @@ package generics
 
 fun main() {
     genericExample()
+    genericFunctionsExample()
 }
 
 open class WaterSupply(var needsProcessed: Boolean)
@@ -28,6 +29,34 @@ class Aquarium<T: WaterSupply>(val waterSupply: T) {
         println("adding water from $waterSupply")
     }
 
+}
+
+inline fun <reified T: WaterSupply> Aquarium<*>.hasWaterSupplyOfType() = waterSupply is T
+
+fun <T: WaterSupply> isWaterClean(aquarium: Aquarium<T>) {
+    println("is water clear?: ${!aquarium.waterSupply.needsProcessed}")
+}
+
+inline fun <reified T: WaterSupply> WaterSupply.isTypeOf() = this is T
+
+fun genericFunctionsExample() {
+    println("\n ----- Generic Functions")
+
+    val fishStoreWater = Aquarium(FishStoreWater())
+    val lakeWater = Aquarium(LakeWater())
+    val tapWater = Aquarium(TapWater())
+
+    isWaterClean(fishStoreWater)
+    isWaterClean(lakeWater)
+    isWaterClean(tapWater)
+
+    println("\nTesting reified: waterSupply is R?: ${fishStoreWater.hasWaterSupplyOfType<TapWater>()}")
+    println("Testing reified: waterSupply is R?: ${fishStoreWater.hasWaterSupplyOfType<FishStoreWater>()}")
+    println("Testing reified: waterSupply is R?: ${fishStoreWater.hasWaterSupplyOfType<LakeWater>()}")
+
+    println("\nTesting reified: isTypeOf<TapWater>?: ${fishStoreWater.waterSupply.isTypeOf<TapWater>()}")
+    println("Testing reified: isTypeOf<FishStoreWater>?: ${fishStoreWater.waterSupply.isTypeOf<FishStoreWater>()}")
+    println("Testing reified: isTypeOf<LakeWater>?: ${fishStoreWater.waterSupply.isTypeOf<LakeWater>()}")
 }
 
 fun genericExample() {
